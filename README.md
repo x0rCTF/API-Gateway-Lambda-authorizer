@@ -1,3 +1,5 @@
+# Lambda Authorizer Function
+
 ```node
 exports.handler =  function(event, context, callback) {
 
@@ -33,3 +35,12 @@ var generatePolicy = function(principalId, effect, resource) {
     return authResponse;
 }
 ```
+# Responses:
+## 401 Unauthorized
+[![](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/401-Unauthorized.jpg)](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/401-Unauthorized.jpg)
+
+## 403 Forbidden
+[![](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/403-Forbidden.jpg)](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/403-Forbidden.jpg)
+
+## 200 OK
+[![](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/200-OK.jpg)](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/200-OK.jpg)
