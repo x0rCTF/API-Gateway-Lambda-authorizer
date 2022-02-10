@@ -35,7 +35,7 @@ var generatePolicy = function(principalId, effect, resource) {
     return authResponse;
 }
 ```
-# Responses:
+# Requests:
 ## 401 Unauthorized
 [![](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/401-Unauthorized.jpg)](https://github.com/x0rCTF/API-Gateway-Lambda-authorizer/blob/main/images/401-Unauthorized.jpg)
 
