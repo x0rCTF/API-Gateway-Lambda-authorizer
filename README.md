@@ -4,7 +4,7 @@
 exports.handler =  function(event, context, callback) {
 
     // Token validation //
-    const t1 = "t0keniz3d";             // API KEY //                 
+    const t1 = "t0keniz3d";                      
     const t2 = event.authorizationToken;
     const methodArn = event.methodArn
     if (t1 === t2) {
