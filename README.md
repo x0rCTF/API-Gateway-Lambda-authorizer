@@ -1,4 +1,5 @@
 # Lambda Authorizer Function
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fx0rCTF%2FAPI-Gateway-Lambda-authorizer&countColor=%23263759&style=plastic)
 
 ```node
 exports.handler =  function(event, context, callback) {
